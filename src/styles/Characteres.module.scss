@@ -1,0 +1,16 @@
+@import './mixins.scss';
+
+.characteres {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: var(--max-width);
+}
+
+@include only-desktop() {
+    .characteres {
+        grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
+        grid-gap: 2rem;
+    }
+}

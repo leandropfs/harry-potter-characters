@@ -1,6 +1,8 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
-import Header from '@/components/header'
+import Header from '@/components/Header'
+import Characteres from '@/components/Characteres'
+
+import styles from '@/styles/Home.module.scss'
 
 
 export default function Home() {
@@ -14,7 +16,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className={styles.main}>
-        
+        <Characteres />
       </main>
     </>
   )
