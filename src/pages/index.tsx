@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Characteres from '@/components/Characteres'
 
 import styles from '@/styles/Home.module.scss'
+import Footer from '@/components/Footer'
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <Characteres />
       </main>
+      <Footer />
     </>
   )
 }

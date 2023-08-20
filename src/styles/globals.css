@@ -13,7 +13,8 @@
   --green-300: #00be0d;
   --max-width: 1248px;
   --edge-gap: 1rem;
-  --blue-800: #1B2137
+  --blue-800: #1B2137;
+  --blue-900: #0f1320;
 }
 
 * {
