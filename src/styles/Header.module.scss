@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    gap: 4rem;
+
+    &-logo {
+        max-width: 90%;
+        width: auto;
+        height: auto;
+    }
+
+    &-search {
+
+        width: 100%;
+        max-width: var(--max-width);
+
+        &-fieldset {
+            border:  none;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        &-label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            border-bottom: 1px solid var(--white);
+            width: 100%;
+        }
+
+        &-input {
+            width: 100%;
+            border: none;
+            background: transparent;
+            color: var(--white);
+            font-size: 1.5rem;
+
+            &:focus {
+                outline: transparent;
+                border: none;
+            }
+        }
+
+        &-heading {
+            color: var(--white);
+            font-size: 1.5rem;
+            white-space: nowrap;
+            display: flex;
+            padding: 0 1rem;
+        }
+
+        &-submitIcon {
+            display: flex;
+            border: none;
+            background: transparent;
+            padding: 0 1rem;
+            cursor: pointer;
+        }
+    }
+}
