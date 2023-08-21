@@ -14,3 +14,16 @@
         grid-gap: 2rem;
     }
 }
+
+.loading {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notFounded {
+    font-size: 1.5rem;
+    color: var(--white);
+    text-align: center;
+}

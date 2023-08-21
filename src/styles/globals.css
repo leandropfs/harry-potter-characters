@@ -17,6 +17,16 @@
   --blue-900: #0f1320;
 }
 
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/Futura.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Harry P";
+  src: url("../fonts/Harry.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
