@@ -1,4 +1,4 @@
-import { useContext, useRef } from 'react'
+import { useContext } from 'react'
 import { SearchContext } from '@/contexts/SearchContext'
 import Image from 'next/image'
 
