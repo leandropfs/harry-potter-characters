@@ -1,5 +1,5 @@
-import { ReactNode, createContext } from "react";
-import { CharacterType } from "../typings/CharacterType";
+import { ReactNode, createContext } from "react"
+import { CharacterType } from "../typings/CharacterType"
 
 type CharacterContextType = {
     character: CharacterType

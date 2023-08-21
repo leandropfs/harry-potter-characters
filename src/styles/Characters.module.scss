@@ -1,6 +1,6 @@
 @import './mixins.scss';
 
-.characteres {
+.characters {
     display: grid;
     grid-template-columns: 100%;
     grid-gap: 2rem;
@@ -9,7 +9,7 @@
 }
 
 @include only-desktop() {
-    .characteres {
+    .characters {
         grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
         grid-gap: 2rem;
     }

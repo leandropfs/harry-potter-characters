@@ -6,14 +6,16 @@ const CharacterImage = () => {
 
     const { image, name } = useCharacter()
 
-    return (image && (
+    const imageSrc = image ? image : "/images/no-image.png"
+
+    return (
         <div className={styles["character-image"]}>
             <img 
-                src={image}
+                src={imageSrc}
                 alt={name} 
             />
         </div>
-    ))
+    )
 }
 
 export default CharacterImage
